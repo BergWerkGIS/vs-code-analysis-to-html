@@ -28,11 +28,10 @@ function writeHtml(defects) {
 		'file'
 		, 'line'
 		, 'column'
-		, 'function/decorcated'
+		, 'description'
+		, 'function'
 		, 'function line'
 		, 'defect code'
-		, 'desc'
-
 	];
 	var tbl_hdr_cells = '';
 
@@ -48,18 +47,18 @@ function writeHtml(defects) {
 			rule_category = d.CATEGORY.RULECATEGORY;
 		}
 		var row = util.format(
-			'<tr><td title="%s">%s</td><td>%s</td><td>%s</td><td>%s<br />%s</td><td>%s</td><td>%s%s</td><td>%s</td></tr>',
+			'<tr><td title="%s">%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s<br />%s</td><td>%s</td><td>%s%s</td></tr>',
 			sfa.FILEPATH,
 			sfa.FILENAME,
 			sfa.LINE,
 			sfa.COLUMN,
+			d.DESCRIPTION,
 			d.FUNCTION,
 			//d.DECORATED,
 			iteratePath(d.PATH),
 			d.FUNCLINE,
 			null !== rule_category ? rule_category + ': ' : '',
-			d.DEFECTCODE,
-			d.DESCRIPTION
+			d.DEFECTCODE
 			);
 		tbl_rows += row;
 	});
