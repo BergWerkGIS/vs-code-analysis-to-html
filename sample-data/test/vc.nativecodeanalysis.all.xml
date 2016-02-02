@@ -1,0 +1,1737 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\test\</FILEPATH>
+      <FILENAME>catch.hpp</FILENAME>
+      <LINE>7076</LINE>
+      <COLUMN>89</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>'const char' passed as _Param_(1) when 'unsigned char' is required in call to 'isalnum'.</DESCRIPTION>
+    <FUNCTION>Catch::isReservedTag</FUNCTION>
+    <DECORATED>?isReservedTag@Catch@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>7075</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\test\</FILEPATH>
+      <FILENAME>catch.hpp</FILENAME>
+      <LINE>7702</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'OutputDebugStringA': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\include\um\debugapi.h(85). </DESCRIPTION>
+    <FUNCTION>OutputDebugStringA</FUNCTION>
+    <DECORATED>OutputDebugStringA</DECORATED>
+    <FUNCLINE>7702</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\test\unit\color\</FILEPATH>
+      <FILENAME>css_color.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '39512' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>____C_A_T_C_H____T_E_S_T____7</FUNCTION>
+    <DECORATED>?____C_A_T_C_H____T_E_S_T____7@@YAXXZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\spirit\home\support\</FILEPATH>
+      <FILENAME>char_class.hpp</FILENAME>
+      <LINE>47</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>6326</DEFECTCODE>
+    <DESCRIPTION>Potential comparison of a constant with another constant.</DESCRIPTION>
+    <FUNCTION>boost::spirit::detail::cast_char</FUNCTION>
+    <DECORATED>??$cast_char@DD@detail@spirit@boost@@YADD@Z</DECORATED>
+    <FUNCLINE>45</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\test\unit\core\</FILEPATH>
+      <FILENAME>box2d_test.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '47288' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>____C_A_T_C_H____T_E_S_T____7</FUNCTION>
+    <DECORATED>?____C_A_T_C_H____T_E_S_T____7@@YAXXZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\test\unit\core\</FILEPATH>
+      <FILENAME>comparison_test.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '26688' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>____C_A_T_C_H____T_E_S_T____6</FUNCTION>
+    <DECORATED>?____C_A_T_C_H____T_E_S_T____6@@YAXXZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\test\unit\core\</FILEPATH>
+      <FILENAME>conversions_test.cpp</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '34892' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>____C_A_T_C_H____T_E_S_T____16</FUNCTION>
+    <DECORATED>?____C_A_T_C_H____T_E_S_T____16@@YAXXZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\test\unit\core\</FILEPATH>
+      <FILENAME>expresssions_test.cpp</FILENAME>
+      <LINE>42</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '18576' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>____C_A_T_C_H____T_E_S_T____42</FUNCTION>
+    <DECORATED>?____C_A_T_C_H____T_E_S_T____42@@YAXXZ</DECORATED>
+    <FUNCLINE>42</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\test\unit\core\</FILEPATH>
+      <FILENAME>value_test.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '27056' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>____C_A_T_C_H____T_E_S_T____6</FUNCTION>
+    <DECORATED>?____C_A_T_C_H____T_E_S_T____6@@YAXXZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\test\unit\datasource\</FILEPATH>
+      <FILENAME>csv.cpp</FILENAME>
+      <LINE>105</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '48872' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>____C_A_T_C_H____T_E_S_T____105</FUNCTION>
+    <DECORATED>?____C_A_T_C_H____T_E_S_T____105@@YAXXZ</DECORATED>
+    <FUNCLINE>105</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\test\unit\datasource\</FILEPATH>
+      <FILENAME>geojson.cpp</FILENAME>
+      <LINE>86</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '52904' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>____C_A_T_C_H____T_E_S_T____86</FUNCTION>
+    <DECORATED>?____C_A_T_C_H____T_E_S_T____86@@YAXXZ</DECORATED>
+    <FUNCLINE>86</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\test\unit\datasource\</FILEPATH>
+      <FILENAME>postgis.cpp</FILENAME>
+      <LINE>66</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '22024' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>____C_A_T_C_H____T_E_S_T____66</FUNCTION>
+    <DECORATED>?____C_A_T_C_H____T_E_S_T____66@@YAXXZ</DECORATED>
+    <FUNCLINE>66</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\test\unit\geometry\</FILEPATH>
+      <FILENAME>centroid.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '18044' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>____C_A_T_C_H____T_E_S_T____5</FUNCTION>
+    <DECORATED>?____C_A_T_C_H____T_E_S_T____5@@YAXXZ</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\</FILEPATH>
+      <FILENAME>token_functions.hpp</FILENAME>
+      <LINE>237</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>'char' passed as _Param_(1) when 'unsigned char' is required in call to 'ispunct'.</DESCRIPTION>
+    <FUNCTION>boost::tokenizer_detail::traits_extension_details&lt;std::char_traits&lt;char&gt;,1&gt;::ispunct</FUNCTION>
+    <DECORATED>?ispunct@?$traits_extension_details@U?$char_traits@D@std@@$00@tokenizer_detail@boost@@SA_ND@Z</DECORATED>
+    <FUNCLINE>235</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\</FILEPATH>
+      <FILENAME>token_functions.hpp</FILENAME>
+      <LINE>233</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>'char' passed as _Param_(1) when 'unsigned char' is required in call to 'isspace'.</DESCRIPTION>
+    <FUNCTION>boost::tokenizer_detail::traits_extension_details&lt;std::char_traits&lt;char&gt;,1&gt;::isspace</FUNCTION>
+    <DECORATED>?isspace@?$traits_extension_details@U?$char_traits@D@std@@$00@tokenizer_detail@boost@@SA_ND@Z</DECORATED>
+    <FUNCLINE>231</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+      <FILENAME>point_concept.hpp</FILENAME>
+      <LINE>114</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'p'. </DESCRIPTION>
+    <FUNCTION>boost::geometry::concept::Point&lt;mapnik::geometry::point&lt;double&gt; &gt;::dimension_checker&lt;mapnik::geometry::point&lt;double&gt;,0,2&gt;::apply</FUNCTION>
+    <DECORATED>?apply@?$dimension_checker@U?$point@N@geometry@mapnik@@$0A@$01@?$Point@U?$point@N@geometry@mapnik@@@concept@geometry@boost@@SAXXZ</DECORATED>
+    <FUNCLINE>111</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>point_concept.hpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'p' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>point_concept.hpp</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>36</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'p' is an Output from 'boost::geometry::get' (declared at c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\core\access.hpp:268)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>point_concept.hpp</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>36</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'p' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+      <FILENAME>point_concept.hpp</FILENAME>
+      <LINE>167</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'p'. </DESCRIPTION>
+    <FUNCTION>boost::geometry::concept::ConstPoint&lt;mapnik::geometry::point&lt;double&gt; &gt;::dimension_checker&lt;mapnik::geometry::point&lt;double&gt;,0,2&gt;::apply</FUNCTION>
+    <DECORATED>?apply@?$dimension_checker@U?$point@N@geometry@mapnik@@$0A@$01@?$ConstPoint@U?$point@N@geometry@mapnik@@@concept@geometry@boost@@SAXXZ</DECORATED>
+    <FUNCLINE>164</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>point_concept.hpp</FILENAME>
+        <LINE>166</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'p' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>point_concept.hpp</FILENAME>
+        <LINE>167</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'p' is an Output from 'boost::geometry::get' (declared at c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\core\access.hpp:268)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>point_concept.hpp</FILENAME>
+        <LINE>167</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'p' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+      <FILENAME>polygon_concept.hpp</FILENAME>
+      <LINE>115</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'cpoly'. </DESCRIPTION>
+    <FUNCTION>boost::geometry::concept::ConstPolygon&lt;mapnik::geometry::polygon&lt;double,mapnik::geometry::rings_container&gt; const &gt;::checker::apply</FUNCTION>
+    <DECORATED>?apply@checker@?$ConstPolygon@$$CBU?$polygon@N$$Yrings_container@geometry@mapnik@@@geometry@mapnik@@@concept@geometry@boost@@SAXXZ</DECORATED>
+    <FUNCLINE>111</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>polygon_concept.hpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>36</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'cpoly' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>polygon_concept.hpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'cpoly' is an Output from 'boost::geometry::traits::exterior_ring&lt;mapnik::geometry::polygon&lt;double,mapnik::geometry::rings_container&gt; &gt;::get' (declared at c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\include\mapnik\geometry_adapters.hpp:196)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>polygon_concept.hpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'cpoly' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\test\unit\geometry\</FILEPATH>
+      <FILENAME>geometry_envelope_test.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '25216' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>____C_A_T_C_H____T_E_S_T____7</FUNCTION>
+    <DECORATED>?____C_A_T_C_H____T_E_S_T____7@@YAXXZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\algorithms\</FILEPATH>
+      <FILENAME>correct.hpp</FILENAME>
+      <LINE>150</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>6326</DEFECTCODE>
+    <DESCRIPTION>Potential comparison of a constant with another constant.</DESCRIPTION>
+    <FUNCTION>boost::geometry::detail::correct::correct_ring&lt;mapnik::geometry::linear_ring&lt;double&gt;,std::greater&lt;double&gt; &gt;::apply</FUNCTION>
+    <DECORATED>?apply@?$correct_ring@U?$linear_ring@N@geometry@mapnik@@U?$greater@N@std@@@correct@detail@geometry@boost@@SAXAEAU?$linear_ring@N@4mapnik@@@Z</DECORATED>
+    <FUNCLINE>141</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\algorithms\</FILEPATH>
+      <FILENAME>correct.hpp</FILENAME>
+      <LINE>154</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>6326</DEFECTCODE>
+    <DESCRIPTION>Potential comparison of a constant with another constant.</DESCRIPTION>
+    <FUNCTION>boost::geometry::detail::correct::correct_ring&lt;mapnik::geometry::linear_ring&lt;double&gt;,std::greater&lt;double&gt; &gt;::apply</FUNCTION>
+    <DECORATED>?apply@?$correct_ring@U?$linear_ring@N@geometry@mapnik@@U?$greater@N@std@@@correct@detail@geometry@boost@@SAXAEAU?$linear_ring@N@4mapnik@@@Z</DECORATED>
+    <FUNCLINE>141</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+      <FILENAME>area_concept.hpp</FILENAME>
+      <LINE>52</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'st'. </DESCRIPTION>
+    <FUNCTION>boost::geometry::concept::AreaStrategy&lt;boost::geometry::strategy::area::surveyor&lt;mapnik::geometry::point&lt;double&gt;,void&gt; &gt;::check_methods::apply</FUNCTION>
+    <DECORATED>?apply@check_methods@?$AreaStrategy@V?$surveyor@U?$point@N@geometry@mapnik@@X@area@strategy@geometry@boost@@@concept@geometry@boost@@SAXXZ</DECORATED>
+    <FUNCLINE>45</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+        <FILENAME>area_concept.hpp</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+        <FILENAME>area_concept.hpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'st' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+        <FILENAME>area_concept.hpp</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+        <FILENAME>area_concept.hpp</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'st' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+      <FILENAME>ring_concept.hpp</FILENAME>
+      <LINE>63</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'ring'. </DESCRIPTION>
+    <FUNCTION>boost::geometry::concept::Ring&lt;mapnik::geometry::linear_ring&lt;double&gt; &gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$Ring@U?$linear_ring@N@geometry@mapnik@@@concept@geometry@boost@@QEAA@XZ</DECORATED>
+    <FUNCLINE>60</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>ring_concept.hpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'ring' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>ring_concept.hpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>38</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'ring' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+      <FILENAME>ring_concept.hpp</FILENAME>
+      <LINE>66</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'point'. </DESCRIPTION>
+    <FUNCTION>boost::geometry::concept::Ring&lt;mapnik::geometry::linear_ring&lt;double&gt; &gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$Ring@U?$linear_ring@N@geometry@mapnik@@@concept@geometry@boost@@QEAA@XZ</DECORATED>
+    <FUNCLINE>60</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>ring_concept.hpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>ring_concept.hpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>ring_concept.hpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>ring_concept.hpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'point' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>ring_concept.hpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>42</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'point' is an Output from 'boost::geometry::traits::push_back&lt;mapnik::geometry::linear_ring&lt;double&gt; &gt;::apply' (declared at c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\core\mutable_range.hpp:69)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>ring_concept.hpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>42</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'point' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\test\unit\geometry\</FILEPATH>
+      <FILENAME>geometry_is_simple.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '18164' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>____C_A_T_C_H____T_E_S_T____7</FUNCTION>
+    <DECORATED>?____C_A_T_C_H____T_E_S_T____7@@YAXXZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\algorithms\detail\is_valid\</FILEPATH>
+      <FILENAME>has_spikes.hpp</FILENAME>
+      <LINE>141</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'cur' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '109' of 'c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\algorithms\detail\is_valid\has_spikes.hpp'.</DESCRIPTION>
+    <FUNCTION>boost::geometry::detail::is_valid::has_spikes&lt;mapnik::geometry::line_string&lt;double&gt;,1&gt;::apply</FUNCTION>
+    <DECORATED>??$apply@Usimplicity_failure_policy@is_simple@detail@geometry@boost@@@?$has_spikes@U?$line_string@N@geometry@mapnik@@$00@is_valid@detail@geometry@boost@@SA_NAEBU?$line_string@N@3mapnik@@AEAUsimplicity_failure_policy@is_simple@234@@Z</DECORATED>
+    <FUNCLINE>95</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\algorithms\detail\is_valid\</FILEPATH>
+        <FILENAME>has_spikes.hpp</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\algorithms\detail\is_valid\</FILEPATH>
+      <FILENAME>has_spikes.hpp</FILENAME>
+      <LINE>145</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'prev' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '107' of 'c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\algorithms\detail\is_valid\has_spikes.hpp'.</DESCRIPTION>
+    <FUNCTION>boost::geometry::detail::is_valid::has_spikes&lt;mapnik::geometry::line_string&lt;double&gt;,1&gt;::apply</FUNCTION>
+    <DECORATED>??$apply@Usimplicity_failure_policy@is_simple@detail@geometry@boost@@@?$has_spikes@U?$line_string@N@geometry@mapnik@@$00@is_valid@detail@geometry@boost@@SA_NAEBU?$line_string@N@3mapnik@@AEAUsimplicity_failure_policy@is_simple@234@@Z</DECORATED>
+    <FUNCLINE>95</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\algorithms\detail\is_valid\</FILEPATH>
+        <FILENAME>has_spikes.hpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\algorithms\detail\is_valid\</FILEPATH>
+      <FILENAME>has_spikes.hpp</FILENAME>
+      <LINE>148</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'next' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '117' of 'c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\algorithms\detail\is_valid\has_spikes.hpp'.</DESCRIPTION>
+    <FUNCTION>boost::geometry::detail::is_valid::has_spikes&lt;mapnik::geometry::line_string&lt;double&gt;,1&gt;::apply</FUNCTION>
+    <DECORATED>??$apply@Usimplicity_failure_policy@is_simple@detail@geometry@boost@@@?$has_spikes@U?$line_string@N@geometry@mapnik@@$00@is_valid@detail@geometry@boost@@SA_NAEBU?$line_string@N@3mapnik@@AEAUsimplicity_failure_policy@is_simple@234@@Z</DECORATED>
+    <FUNCLINE>95</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\algorithms\detail\is_valid\</FILEPATH>
+        <FILENAME>has_spikes.hpp</FILENAME>
+        <LINE>117</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+      <FILENAME>box_concept.hpp</FILENAME>
+      <LINE>65</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'b'. </DESCRIPTION>
+    <FUNCTION>boost::geometry::concept::Box&lt;boost::geometry::model::box&lt;mapnik::geometry::point&lt;double&gt; &gt; &gt;::dimension_checker&lt;1,0,2&gt;::apply</FUNCTION>
+    <DECORATED>?apply@?$dimension_checker@$00$0A@$01@?$Box@V?$box@U?$point@N@geometry@mapnik@@@model@geometry@boost@@@concept@geometry@boost@@SAXXZ</DECORATED>
+    <FUNCLINE>62</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>box_concept.hpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'b' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>box_concept.hpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>1</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'b' is an Output from 'boost::geometry::get' (declared at c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\core\access.hpp:338)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>box_concept.hpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>1</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'b' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+      <FILENAME>segment_concept.hpp</FILENAME>
+      <LINE>108</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 's'. </DESCRIPTION>
+    <FUNCTION>boost::geometry::concept::ConstSegment&lt;boost::geometry::model::referring_segment&lt;mapnik::geometry::point&lt;double&gt; const &gt; &gt;::dimension_checker&lt;1,0,2&gt;::apply</FUNCTION>
+    <DECORATED>?apply@?$dimension_checker@$00$0A@$01@?$ConstSegment@V?$referring_segment@$$CBU?$point@N@geometry@mapnik@@@model@geometry@boost@@@concept@geometry@boost@@SAXXZ</DECORATED>
+    <FUNCLINE>105</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>segment_concept.hpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'s' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>segment_concept.hpp</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'s' is an Output from 'boost::geometry::get' (declared at c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\core\access.hpp:338)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>segment_concept.hpp</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'s' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+      <FILENAME>box_concept.hpp</FILENAME>
+      <LINE>111</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'b'. </DESCRIPTION>
+    <FUNCTION>boost::geometry::concept::ConstBox&lt;boost::geometry::model::box&lt;mapnik::geometry::point&lt;double&gt; &gt; const &gt;::dimension_checker&lt;1,0,2&gt;::apply</FUNCTION>
+    <DECORATED>?apply@?$dimension_checker@$00$0A@$01@?$ConstBox@$$CBV?$box@U?$point@N@geometry@mapnik@@@model@geometry@boost@@@concept@geometry@boost@@SAXXZ</DECORATED>
+    <FUNCLINE>108</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>box_concept.hpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'b' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>box_concept.hpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'b' is an Output from 'boost::geometry::get' (declared at c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\core\access.hpp:338)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>box_concept.hpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'b' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\algorithms\detail\is_simple\</FILEPATH>
+      <FILENAME>linear.hpp</FILENAME>
+      <LINE>68</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6287</DEFECTCODE>
+    <DESCRIPTION>Redundant code:  the left and right sub-expressions are identical.</DESCRIPTION>
+    <FUNCTION>boost::geometry::detail::is_simple::check_segment_indices</FUNCTION>
+    <DECORATED>??$check_segment_indices@U?$turn_info@U?$point@N@geometry@mapnik@@V?$segment_ratio@N@2boost@@U?$turn_operation@V?$segment_ratio@N@geometry@boost@@@overlay@detail@25@V?$array@U?$turn_operation@V?$segment_ratio@N@geometry@boost@@@overlay@detail@geometry@boost@@$01@5@@overlay@detail@geometry@boost@@@is_simple@detail@geometry@boost@@YA_NAEBU?$turn_info@U?$point@N@geometry@mapnik@@V?$segment_ratio@N@2boost@@U?$turn_operation@V?$segment_ratio@N@geometry@boost@@@overlay@detail@25@V?$array@U?$turn_operation@V?$segment_ratio@N@geometry@boost@@@overlay@detail@geometry@boost@@$01@5@@overlay@123@_J@Z</DECORATED>
+    <FUNCLINE>62</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\test\unit\geometry\</FILEPATH>
+      <FILENAME>geometry_is_valid.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '70672' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>____C_A_T_C_H____T_E_S_T____6</FUNCTION>
+    <DECORATED>?____C_A_T_C_H____T_E_S_T____6@@YAXXZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+      <FILENAME>within_concept.hpp</FILENAME>
+      <LINE>93</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'st'. </DESCRIPTION>
+    <FUNCTION>boost::geometry::concept::WithinStrategyPolygonal&lt;boost::geometry::strategy::within::winding&lt;mapnik::geometry::point&lt;double&gt;,mapnik::geometry::point&lt;double&gt;,void&gt; &gt;::checker::apply</FUNCTION>
+    <DECORATED>??$apply@P6A_NAEBU?$point@N@geometry@mapnik@@00AEAVcounter@?$winding@U?$point@N@geometry@mapnik@@U123@X@within@strategy@2boost@@@ZP6AHAEBV456728@@Z@checker@?$WithinStrategyPolygonal@V?$winding@U?$point@N@geometry@mapnik@@U123@X@within@strategy@geometry@boost@@@concept@geometry@boost@@SAXAEBQ6A_NAEBU?$point@N@3mapnik@@00AEAVcounter@?$winding@U?$point@N@geometry@mapnik@@U123@X@within@strategy@34@@ZAEBQ6AHAEBV789strategy@34@@Z@Z</DECORATED>
+    <FUNCLINE>44</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+        <FILENAME>within_concept.hpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+        <FILENAME>within_concept.hpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+        <FILENAME>within_concept.hpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+        <FILENAME>within_concept.hpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+        <FILENAME>within_concept.hpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+        <FILENAME>within_concept.hpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+        <FILENAME>within_concept.hpp</FILENAME>
+        <LINE>88</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+        <FILENAME>within_concept.hpp</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'st' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+        <FILENAME>within_concept.hpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+        <FILENAME>within_concept.hpp</FILENAME>
+        <LINE>91</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+        <FILENAME>within_concept.hpp</FILENAME>
+        <LINE>93</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'st' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+      <FILENAME>within_concept.hpp</FILENAME>
+      <LINE>159</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'bx'. </DESCRIPTION>
+    <FUNCTION>boost::geometry::concept::WithinStrategyPointBox&lt;boost::geometry::strategy::within::point_in_box&lt;mapnik::geometry::point&lt;double&gt;,boost::geometry::model::box&lt;mapnik::geometry::point&lt;double&gt; &gt;,boost::geometry::strategy::within::covered_by_range&gt; &gt;::checker::apply</FUNCTION>
+    <DECORATED>??$apply@P6A_NAEBU?$point@N@geometry@mapnik@@AEBV?$box@U?$point@N@geometry@mapnik@@@model@2boost@@@Z@checker@?$WithinStrategyPointBox@U?$point_in_box@U?$point@N@geometry@mapnik@@V?$box@U?$point@N@geometry@mapnik@@@model@2boost@@Ucovered_by_range@within@strategy@26@@within@strategy@geometry@boost@@@concept@geometry@boost@@SAXAEBQ6A_NAEBU?$point@N@3mapnik@@AEBV?$box@U?$point@N@geometry@mapnik@@@model@34@@Z@Z</DECORATED>
+    <FUNCLINE>119</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+        <FILENAME>within_concept.hpp</FILENAME>
+        <LINE>124</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+        <FILENAME>within_concept.hpp</FILENAME>
+        <LINE>128</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+        <FILENAME>within_concept.hpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+        <FILENAME>within_concept.hpp</FILENAME>
+        <LINE>136</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+        <FILENAME>within_concept.hpp</FILENAME>
+        <LINE>142</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+        <FILENAME>within_concept.hpp</FILENAME>
+        <LINE>155</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+        <FILENAME>within_concept.hpp</FILENAME>
+        <LINE>156</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+        <FILENAME>within_concept.hpp</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'bx' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+        <FILENAME>within_concept.hpp</FILENAME>
+        <LINE>159</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'bx' is an Output from 'boost::geometry::strategy::within::point_in_box&lt;mapnik::geometry::point&lt;double&gt;,boost::geometry::model::box&lt;mapnik::geometry::point&lt;double&gt; &gt;,boost::geometry::strategy::within::covered_by_range&gt;::apply' (declared at c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\cartesian\point_in_box.hpp:105)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\strategies\concepts\</FILEPATH>
+        <FILENAME>within_concept.hpp</FILENAME>
+        <LINE>159</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'bx' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\test\unit\geometry\</FILEPATH>
+      <FILENAME>geometry_reprojection.cpp</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '101128' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>____C_A_T_C_H____T_E_S_T____10</FUNCTION>
+    <DECORATED>?____C_A_T_C_H____T_E_S_T____10@@YAXXZ</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+      <FILENAME>multi_polygon_concept.hpp</FILENAME>
+      <LINE>56</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'mp'. </DESCRIPTION>
+    <FUNCTION>boost::geometry::concept::MultiPolygon&lt;mapnik::geometry::multi_polygon&lt;__int64&gt; &gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$MultiPolygon@U?$multi_polygon@_J@geometry@mapnik@@@concept@geometry@boost@@QEAA@XZ</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>multi_polygon_concept.hpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'mp' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>multi_polygon_concept.hpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>38</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'mp' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+      <FILENAME>multi_polygon_concept.hpp</FILENAME>
+      <LINE>59</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'poly'. </DESCRIPTION>
+    <FUNCTION>boost::geometry::concept::MultiPolygon&lt;mapnik::geometry::multi_polygon&lt;__int64&gt; &gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$MultiPolygon@U?$multi_polygon@_J@geometry@mapnik@@@concept@geometry@boost@@QEAA@XZ</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>multi_polygon_concept.hpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>multi_polygon_concept.hpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>multi_polygon_concept.hpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>multi_polygon_concept.hpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'poly' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>multi_polygon_concept.hpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>42</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'poly' is an Output from 'boost::geometry::traits::push_back&lt;mapnik::geometry::multi_polygon&lt;__int64&gt; &gt;::apply' (declared at c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\core\mutable_range.hpp:69)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>multi_polygon_concept.hpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>42</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'poly' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+      <FILENAME>multi_linestring_concept.hpp</FILENAME>
+      <LINE>57</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'mls'. </DESCRIPTION>
+    <FUNCTION>boost::geometry::concept::MultiLinestring&lt;mapnik::geometry::multi_line_string&lt;__int64&gt; &gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$MultiLinestring@U?$multi_line_string@_J@geometry@mapnik@@@concept@geometry@boost@@QEAA@XZ</DECORATED>
+    <FUNCLINE>54</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>multi_linestring_concept.hpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'mls' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>multi_linestring_concept.hpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>38</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'mls' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+      <FILENAME>multi_linestring_concept.hpp</FILENAME>
+      <LINE>60</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'ls'. </DESCRIPTION>
+    <FUNCTION>boost::geometry::concept::MultiLinestring&lt;mapnik::geometry::multi_line_string&lt;__int64&gt; &gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$MultiLinestring@U?$multi_line_string@_J@geometry@mapnik@@@concept@geometry@boost@@QEAA@XZ</DECORATED>
+    <FUNCLINE>54</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>multi_linestring_concept.hpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>multi_linestring_concept.hpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>multi_linestring_concept.hpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>multi_linestring_concept.hpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'ls' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>multi_linestring_concept.hpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>42</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'ls' is an Output from 'boost::geometry::traits::push_back&lt;mapnik::geometry::multi_line_string&lt;__int64&gt; &gt;::apply' (declared at c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\core\mutable_range.hpp:69)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>multi_linestring_concept.hpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>42</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'ls' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+      <FILENAME>multi_point_concept.hpp</FILENAME>
+      <LINE>59</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'point'. </DESCRIPTION>
+    <FUNCTION>boost::geometry::concept::MultiPoint&lt;mapnik::geometry::multi_point&lt;__int64&gt; &gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$MultiPoint@U?$multi_point@_J@geometry@mapnik@@@concept@geometry@boost@@QEAA@XZ</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>multi_point_concept.hpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>multi_point_concept.hpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>multi_point_concept.hpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>multi_point_concept.hpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'point' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>multi_point_concept.hpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>42</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'point' is an Output from 'boost::geometry::traits::push_back&lt;mapnik::geometry::multi_point&lt;__int64&gt; &gt;::apply' (declared at c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\core\mutable_range.hpp:69)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>multi_point_concept.hpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>42</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'point' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+      <FILENAME>multi_point_concept.hpp</FILENAME>
+      <LINE>56</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'mp'. </DESCRIPTION>
+    <FUNCTION>boost::geometry::concept::MultiPoint&lt;mapnik::geometry::multi_point&lt;__int64&gt; &gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$MultiPoint@U?$multi_point@_J@geometry@mapnik@@@concept@geometry@boost@@QEAA@XZ</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>multi_point_concept.hpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'mp' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>multi_point_concept.hpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>38</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'mp' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+      <FILENAME>linestring_concept.hpp</FILENAME>
+      <LINE>87</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'ls'. </DESCRIPTION>
+    <FUNCTION>boost::geometry::concept::Linestring&lt;mapnik::geometry::line_string&lt;__int64&gt; &gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$Linestring@U?$line_string@_J@geometry@mapnik@@@concept@geometry@boost@@QEAA@XZ</DECORATED>
+    <FUNCLINE>84</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>linestring_concept.hpp</FILENAME>
+        <LINE>86</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'ls' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>linestring_concept.hpp</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>38</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'ls' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+      <FILENAME>linestring_concept.hpp</FILENAME>
+      <LINE>90</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'point'. </DESCRIPTION>
+    <FUNCTION>boost::geometry::concept::Linestring&lt;mapnik::geometry::line_string&lt;__int64&gt; &gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$Linestring@U?$line_string@_J@geometry@mapnik@@@concept@geometry@boost@@QEAA@XZ</DECORATED>
+    <FUNCLINE>84</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>linestring_concept.hpp</FILENAME>
+        <LINE>86</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>linestring_concept.hpp</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>linestring_concept.hpp</FILENAME>
+        <LINE>88</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>linestring_concept.hpp</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'point' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>linestring_concept.hpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>42</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'point' is an Output from 'boost::geometry::traits::push_back&lt;mapnik::geometry::line_string&lt;__int64&gt; &gt;::apply' (declared at c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\core\mutable_range.hpp:69)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>linestring_concept.hpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>42</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'point' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+      <FILENAME>polygon_concept.hpp</FILENAME>
+      <LINE>63</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'poly'. </DESCRIPTION>
+    <FUNCTION>boost::geometry::concept::Polygon&lt;mapnik::geometry::polygon&lt;__int64,mapnik::geometry::rings_container&gt; &gt;::checker::apply</FUNCTION>
+    <DECORATED>?apply@checker@?$Polygon@U?$polygon@_J$$Yrings_container@geometry@mapnik@@@geometry@mapnik@@@concept@geometry@boost@@SAXXZ</DECORATED>
+    <FUNCLINE>58</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>polygon_concept.hpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'poly' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>polygon_concept.hpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\geometry\geometries\concepts\</FILEPATH>
+        <FILENAME>polygon_concept.hpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'poly' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\test\unit\imaging\</FILEPATH>
+      <FILENAME>image.cpp</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '59816' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>____C_A_T_C_H____T_E_S_T____10</FUNCTION>
+    <DECORATED>?____C_A_T_C_H____T_E_S_T____10@@YAXXZ</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\test\unit\imaging\</FILEPATH>
+      <FILENAME>image_apply_opacity.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '16528' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>____C_A_T_C_H____T_E_S_T____8</FUNCTION>
+    <DECORATED>?____C_A_T_C_H____T_E_S_T____8@@YAXXZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\test\unit\imaging\</FILEPATH>
+      <FILENAME>image_filter.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '107616' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>____C_A_T_C_H____T_E_S_T____13</FUNCTION>
+    <DECORATED>?____C_A_T_C_H____T_E_S_T____13@@YAXXZ</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\test\unit\imaging\</FILEPATH>
+      <FILENAME>image_io_test.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '16944' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>____C_A_T_C_H____T_E_S_T____18</FUNCTION>
+    <DECORATED>?____C_A_T_C_H____T_E_S_T____18@@YAXXZ</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\test\unit\imaging\</FILEPATH>
+      <FILENAME>image_premultiply.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '34440' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>____C_A_T_C_H____T_E_S_T____8</FUNCTION>
+    <DECORATED>?____C_A_T_C_H____T_E_S_T____8@@YAXXZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\test\unit\imaging\</FILEPATH>
+      <FILENAME>image_view.cpp</FILENAME>
+      <LINE>9</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '54840' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>____C_A_T_C_H____T_E_S_T____9</FUNCTION>
+    <DECORATED>?____C_A_T_C_H____T_E_S_T____9@@YAXXZ</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\deps\agg\include\</FILEPATH>
+      <FILENAME>agg_pixfmt_rgba.h</FILENAME>
+      <LINE>2586</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>6297</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow:  32-bit value is shifted, then cast to 64-bit value.  Results might not be an expected value.</DESCRIPTION>
+    <FUNCTION>agg::pixfmt_alpha_blend_rgba&lt;agg::blender_rgba_pre&lt;agg::rgba8T&lt;agg::linear&gt;,agg::order_rgba&gt;,agg::row_ptr_cache&lt;unsigned char&gt;,unsigned int&gt;::blend_from</FUNCTION>
+    <DECORATED>??$blend_from@V?$pixfmt_alpha_blend_rgba@U?$blender_rgba_pre@U?$rgba8T@Ulinear@agg@@@agg@@Uorder_rgba@2@@agg@@V?$row_ptr_cache@E@2@I@agg@@@?$pixfmt_alpha_blend_rgba@U?$blender_rgba_pre@U?$rgba8T@Ulinear@agg@@@agg@@Uorder_rgba@2@@agg@@V?$row_ptr_cache@E@2@I@agg@@QEAAXAEBV01@HHHHIE@Z</DECORATED>
+    <FUNCLINE>2576</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\deps\agg\include\</FILEPATH>
+      <FILENAME>agg_pixfmt_rgba.h</FILENAME>
+      <LINE>2588</LINE>
+      <COLUMN>70</COLUMN>
+    </SFA>
+    <DEFECTCODE>6297</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow:  32-bit value is shifted, then cast to 64-bit value.  Results might not be an expected value.</DESCRIPTION>
+    <FUNCTION>agg::pixfmt_alpha_blend_rgba&lt;agg::blender_rgba_pre&lt;agg::rgba8T&lt;agg::linear&gt;,agg::order_rgba&gt;,agg::row_ptr_cache&lt;unsigned char&gt;,unsigned int&gt;::blend_from</FUNCTION>
+    <DECORATED>??$blend_from@V?$pixfmt_alpha_blend_rgba@U?$blender_rgba_pre@U?$rgba8T@Ulinear@agg@@@agg@@Uorder_rgba@2@@agg@@V?$row_ptr_cache@E@2@I@agg@@@?$pixfmt_alpha_blend_rgba@U?$blender_rgba_pre@U?$rgba8T@Ulinear@agg@@@agg@@Uorder_rgba@2@@agg@@V?$row_ptr_cache@E@2@I@agg@@QEAAXAEBV01@HHHHIE@Z</DECORATED>
+    <FUNCLINE>2576</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\deps\agg\include\</FILEPATH>
+      <FILENAME>agg_pixfmt_rgba.h</FILENAME>
+      <LINE>2592</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>6297</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow:  32-bit value is shifted, then cast to 64-bit value.  Results might not be an expected value.</DESCRIPTION>
+    <FUNCTION>agg::pixfmt_alpha_blend_rgba&lt;agg::blender_rgba_pre&lt;agg::rgba8T&lt;agg::linear&gt;,agg::order_rgba&gt;,agg::row_ptr_cache&lt;unsigned char&gt;,unsigned int&gt;::blend_from</FUNCTION>
+    <DECORATED>??$blend_from@V?$pixfmt_alpha_blend_rgba@U?$blender_rgba_pre@U?$rgba8T@Ulinear@agg@@@agg@@Uorder_rgba@2@@agg@@V?$row_ptr_cache@E@2@I@agg@@@?$pixfmt_alpha_blend_rgba@U?$blender_rgba_pre@U?$rgba8T@Ulinear@agg@@@agg@@Uorder_rgba@2@@agg@@V?$row_ptr_cache@E@2@I@agg@@QEAAXAEBV01@HHHHIE@Z</DECORATED>
+    <FUNCLINE>2576</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\deps\agg\include\</FILEPATH>
+      <FILENAME>agg_pixfmt_rgba.h</FILENAME>
+      <LINE>2593</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>6297</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow:  32-bit value is shifted, then cast to 64-bit value.  Results might not be an expected value.</DESCRIPTION>
+    <FUNCTION>agg::pixfmt_alpha_blend_rgba&lt;agg::blender_rgba_pre&lt;agg::rgba8T&lt;agg::linear&gt;,agg::order_rgba&gt;,agg::row_ptr_cache&lt;unsigned char&gt;,unsigned int&gt;::blend_from</FUNCTION>
+    <DECORATED>??$blend_from@V?$pixfmt_alpha_blend_rgba@U?$blender_rgba_pre@U?$rgba8T@Ulinear@agg@@@agg@@Uorder_rgba@2@@agg@@V?$row_ptr_cache@E@2@I@agg@@@?$pixfmt_alpha_blend_rgba@U?$blender_rgba_pre@U?$rgba8T@Ulinear@agg@@@agg@@Uorder_rgba@2@@agg@@V?$row_ptr_cache@E@2@I@agg@@QEAAXAEBV01@HHHHIE@Z</DECORATED>
+    <FUNCLINE>2576</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\test\unit\projection\</FILEPATH>
+      <FILENAME>proj_transform.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '18560' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>____C_A_T_C_H____T_E_S_T____13</FUNCTION>
+    <DECORATED>?____C_A_T_C_H____T_E_S_T____13@@YAXXZ</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\test\unit\svg\</FILEPATH>
+      <FILENAME>svg_parser_test.cpp</FILENAME>
+      <LINE>73</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '67012' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>____C_A_T_C_H____T_E_S_T____73</FUNCTION>
+    <DECORATED>?____C_A_T_C_H____T_E_S_T____73@@YAXXZ</DECORATED>
+    <FUNCLINE>73</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\include\mapnik\</FILEPATH>
+      <FILENAME>vertex_vector.hpp</FILENAME>
+      <LINE>110</LINE>
+      <COLUMN>75</COLUMN>
+    </SFA>
+    <DEFECTCODE>6297</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow:  32-bit value is shifted, then cast to 64-bit value.  Results might not be an expected value.</DESCRIPTION>
+    <FUNCTION>mapnik::vertex_vector&lt;double&gt;::get_vertex</FUNCTION>
+    <DECORATED>?get_vertex@?$vertex_vector@N@mapnik@@QEBAIIPEAN0@Z</DECORATED>
+    <FUNCLINE>106</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\test\unit\vertex_adapter\</FILEPATH>
+      <FILENAME>vertex_adapter.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '65296' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>____C_A_T_C_H____T_E_S_T____6</FUNCTION>
+    <DECORATED>?____C_A_T_C_H____T_E_S_T____6@@YAXXZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH />
+  </DEFECT></DEFECTS>

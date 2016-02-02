@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\spirit\home\karma\numeric\detail\</FILEPATH>
+      <FILENAME>numeric_utils.hpp</FILENAME>
+      <LINE>592</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'ch' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '589' of 'c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\spirit\home\karma\numeric\detail\numeric_utils.hpp'.</DESCRIPTION>
+    <FUNCTION>boost::spirit::karma::int_inserter&lt;10,boost::spirit::unused_type,boost::spirit::unused_type&gt;::call</FUNCTION>
+    <DECORATED>??$call@V?$output_iterator@V?$back_insert_iterator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@U?$int_@$0P@@mpl@boost@@Uunused_type@spirit@5@@detail@karma@spirit@boost@@_K@?$int_inserter@$09Uunused_type@spirit@boost@@U123@@karma@spirit@boost@@SA_NAEAV?$output_iterator@V?$back_insert_iterator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@U?$int_@$0P@@mpl@boost@@Uunused_type@spirit@5@@detail@123@_KAEA_KH@Z</DECORATED>
+    <FUNCLINE>585</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\spirit\home\karma\numeric\detail\</FILEPATH>
+        <FILENAME>numeric_utils.hpp</FILENAME>
+        <LINE>589</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\spirit\home\support\</FILEPATH>
+      <FILENAME>char_class.hpp</FILENAME>
+      <LINE>47</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>6326</DEFECTCODE>
+    <DESCRIPTION>Potential comparison of a constant with another constant.</DESCRIPTION>
+    <FUNCTION>boost::spirit::detail::cast_char</FUNCTION>
+    <DECORATED>??$cast_char@DD@detail@spirit@boost@@YADD@Z</DECORATED>
+    <FUNCLINE>45</FUNCLINE>
+    <PATH />
+  </DEFECT></DEFECTS>

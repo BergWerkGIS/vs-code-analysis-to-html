@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\include\mapnik\</FILEPATH>
+      <FILENAME>vertex_vector.hpp</FILENAME>
+      <LINE>110</LINE>
+      <COLUMN>75</COLUMN>
+    </SFA>
+    <DEFECTCODE>6297</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow:  32-bit value is shifted, then cast to 64-bit value.  Results might not be an expected value.</DESCRIPTION>
+    <FUNCTION>mapnik::vertex_vector&lt;double&gt;::get_vertex</FUNCTION>
+    <DECORATED>?get_vertex@?$vertex_vector@N@mapnik@@QEBAIIPEAN0@Z</DECORATED>
+    <FUNCLINE>106</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\spirit\home\support\</FILEPATH>
+      <FILENAME>char_class.hpp</FILENAME>
+      <LINE>47</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>6326</DEFECTCODE>
+    <DESCRIPTION>Potential comparison of a constant with another constant.</DESCRIPTION>
+    <FUNCTION>boost::spirit::detail::cast_char</FUNCTION>
+    <DECORATED>??$cast_char@DD@detail@spirit@boost@@YADD@Z</DECORATED>
+    <FUNCLINE>45</FUNCLINE>
+    <PATH />
+  </DEFECT></DEFECTS>

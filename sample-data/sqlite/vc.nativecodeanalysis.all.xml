@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\</FILEPATH>
+      <FILENAME>token_functions.hpp</FILENAME>
+      <LINE>237</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>'char' passed as _Param_(1) when 'unsigned char' is required in call to 'ispunct'.</DESCRIPTION>
+    <FUNCTION>boost::tokenizer_detail::traits_extension_details&lt;std::char_traits&lt;char&gt;,1&gt;::ispunct</FUNCTION>
+    <DECORATED>?ispunct@?$traits_extension_details@U?$char_traits@D@std@@$00@tokenizer_detail@boost@@SA_ND@Z</DECORATED>
+    <FUNCLINE>235</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\mb\windows-builds-64\packages\mapnik-c786ff9edf8bb9cfd20aebe5bcdbd5a963f19e3d\mapnik-gyp\mapnik-sdk\include\boost\</FILEPATH>
+      <FILENAME>token_functions.hpp</FILENAME>
+      <LINE>233</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>'char' passed as _Param_(1) when 'unsigned char' is required in call to 'isspace'.</DESCRIPTION>
+    <FUNCTION>boost::tokenizer_detail::traits_extension_details&lt;std::char_traits&lt;char&gt;,1&gt;::isspace</FUNCTION>
+    <DECORATED>?isspace@?$traits_extension_details@U?$char_traits@D@std@@$00@tokenizer_detail@boost@@SA_ND@Z</DECORATED>
+    <FUNCLINE>231</FUNCLINE>
+    <PATH />
+  </DEFECT></DEFECTS>
