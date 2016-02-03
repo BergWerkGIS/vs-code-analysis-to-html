@@ -12,6 +12,7 @@
     "url": "https://github.com/BergWerkGIS/vs-code-analysis-to-html.git"
   },
   "dependencies": {
+    "glob": "^6.0.4",
     "sanitizer": "^0.1.3",
     "xml2js": "*"
   },

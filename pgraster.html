@@ -1,0 +1,13 @@
+<html>
+
+<head>
+	<title>vs code anaylisis</title>
+</head>
+
+<body>
+	<table border="1">
+		<tr><th>file</th><th>line</th><th>column</th><th>description</th><th>function</th><th>function line</th><th>defect code</th></tr>
+		<tr><td title="c:\mb\windows-builds-64\packages\mapnik-master\plugins\input\pgraster\">pgraster_wkb_reader.cpp</td><td>301</td><td>37</td><td>Using uninitialized memory 'val'.</td><td>read_grayscale_band<br /><br /><hr /><b>pgraster_wkb_reader.cpp line:267 col:22</b><br /><b>pgraster_wkb_reader.cpp line:270 col:11</b><br /><b>pgraster_wkb_reader.cpp line:273 col:6</b><br />&nbsp;-id:1<br />&nbsp;-kind:declaration<br />&nbsp;-importance:Essential<br />&nbsp;-msg:<i>'val' is not initialized</i><br /><b>pgraster_wkb_reader.cpp line:274 col:6</b><br /><b>pgraster_wkb_reader.cpp line:275 col:10</b><br /><b>pgraster_wkb_reader.cpp line:276 col:6</b><br /><b>pgraster_wkb_reader.cpp line:277 col:6</b><br /><b>pgraster_wkb_reader.cpp line:278 col:12</b><br /><b>pgraster_wkb_reader.cpp line:279 col:11</b><br /><b>pgraster_wkb_reader.cpp line:279 col:17</b><br />&nbsp;-id:2<br />&nbsp;-kind:branch<br />&nbsp;-importance:Full<br />&nbsp;-msg:<i>Skip this loop, (assume 'y&lt;height' is false)</i><br /><b>pgraster_wkb_reader.cpp line:300 col:21</b><br /><b>pgraster_wkb_reader.cpp line:301 col:7</b><br />&nbsp;-id:3<br />&nbsp;-kind:branch<br />&nbsp;-importance:Full<br />&nbsp;-msg:<i>Enter this branch, (assume 'hasnodata')</i><br /><b>pgraster_wkb_reader.cpp line:301 col:37</b><br />&nbsp;-id:4<br />&nbsp;-kind:declaration<br />&nbsp;-importance:Full<br />&nbsp;-msg:<i>'val' is an In/Out argument to 'mapnik::raster::set_nodata' (declared at c:\mb\windows-builds-64\packages\mapnik-master\include\mapnik\raster.hpp:52)</i><br /><b>pgraster_wkb_reader.cpp line:301 col:37</b><br />&nbsp;-id:5<br />&nbsp;-kind:usage<br />&nbsp;-importance:Essential<br />&nbsp;-msg:<i>'val' is used, but may not have been initialized</i><br /><br /></td><td>263</td><td>mspft: 6001</td></tr>
+	</table>
+</body>
+<html>

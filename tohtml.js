@@ -3,26 +3,55 @@ var path = require('path');
 var util = require('util');
 var xml2js = require('xml2js');
 var sanitizer = require('sanitizer');
+var glob = require("glob")
 
-var in_xml = process.argv[2];
-var out_html = process.argv[3];
+var in_dir = process.argv[2];
+var out_dir = process.argv[3];
 
 var parser = new xml2js.Parser({
 	explicitArray: false,
 	preserveChildrenOrder: true
 });
 
-fs.readFile(in_xml, 'utf8', function (err, data) {
-	parser.parseString(
-		data,
-		function (err, asJson) {
-			writeHtml(asJson.DEFECTS.DEFECT);
-		});
+in_dir = path.join(in_dir, '**/vc.nativecodeanalysis.all.xml');
+console.log('globing:', in_dir);
+
+glob(in_dir, function (err, files) {
+	if (err) {
+		console.log(err);
+		process.exit(1);
+	}
+	files.forEach(function (file) {
+		out_html = path.join(out_dir, path.basename(path.dirname(file)) + '.html');
+		console.log(out_html);
+		processFile(file, out_html);
+	});
+	//process.exit(0);
+
 });
 
-function writeHtml(defects) {
 
-	console.log(defects.length, 'defects');
+function processFile(in_xml, out_file) {
+	fs.readFile(in_xml, 'utf8', function (err, data) {
+		parser.parseString(
+			data,
+			function (err, asJson) {
+				writeHtml(asJson.DEFECTS.DEFECT, out_file);
+			});
+	});
+}
+
+function writeHtml(defects, out_file) {
+
+	if (defects) {
+		if (!Array.isArray(defects)) {
+			defects = [defects];
+		}
+		console.log(defects.length, 'defects');
+	} else {
+		console.log('no defects, skipping:', out_file);
+		return;
+	}
 
 	var col_names = [
 		'file'
@@ -42,6 +71,13 @@ function writeHtml(defects) {
 	var tbl_rows = '';
 	defects.forEach(function (d) {
 		var sfa = d.SFA;
+		//exlude boost
+		if (
+			-1 < sfa.FILEPATH.indexOf('include\\boost')
+			) {
+			//console.log('skipping:', sfa.FILEPATH);
+			return;
+		}
 		var rule_category = null;
 		if (d.CATEGORY && d.CATEGORY.RULECATEGORY) {
 			rule_category = d.CATEGORY.RULECATEGORY;
@@ -67,11 +103,11 @@ function writeHtml(defects) {
 
 		tmpl = tmpl.replace('{{tbl_header_cells}}', tbl_hdr_cells);
 		tmpl = tmpl.replace('{{tbl_rows}}', tbl_rows);
-		fs.writeFile(out_html, tmpl, 'utf8', function (err) {
+		fs.writeFile(out_file, tmpl, 'utf8', function (err) {
 			if (err) {
 				console.log('err:', err);
 			} else {
-				console.log('finished:', out_html);
+				console.log('finished:', out_file);
 			}
 		});
 	});
@@ -113,7 +149,7 @@ function toStringSfa(sfa) {
 			ke.KIND,
 			ke.IMPORTANCE,
 			sanitizer.escape(ke.MESSAGE)
-		)
+			)
 	}
 	return util.format(
 		'<b>%s line:%s col:%s</b><br />%s'
